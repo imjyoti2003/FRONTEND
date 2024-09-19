@@ -1,0 +1,108 @@
+*{
+    height:max-content;
+    overflow:hidden;
+}
+body{
+   background-image: url("https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+   background-attachment: fixed;
+}
+h4{
+    font-size:xx-large;
+    margin-left: 10%;
+    color: white;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 20%;
+    text-decoration: none;
+    border: 2px;
+}
+ul{
+    float: right;
+    margin-top: -54px;
+}
+li a{
+    text-decoration:none;
+    color:white;
+    border-radius: 30px;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: cadetblue;
+    color:black;
+}
+ul li.active a{
+    background-color: blue;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 50px;
+    color: white;
+}
+h3{
+    margin-left: 10%;
+    color: white;
+    margin-top: -17px;
+    font-size:50px ;
+}
+p{
+    margin-left:10%;
+    color: white;
+    font-size: 20px;
+    margin-top: -26px;
+}
+input[type=text]{
+    height: 30px;
+    width: 280px;
+    margin-left:10%;
+    margin-right: -157px;
+}
+button{
+    font-size: x-large;
+    height: 35px;
+    width: 120px;
+    margin-left:157px;
+    background-color: red;
+    color: white;
+    font-size: small;
+    border: none;
+}
+.or{
+    margin-top: 49px;
+    margin-right: -23px;
+    font-size: small;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-right: 108px;
+   padding-bottom: 20px;
+   padding-top: 1px;
+}
+#container div{
+    height: 250px;
+    width: 250px;
+    background:white;
+    margin: 40px;
+    text-align: center;
+    margin-left: -16px;
+    padding-top: 20px;
+}
+.but{
+   display: flex;
+   align-items: center;
+   margin-left: 140px;
+   margin-top: -13px;
+}
+.but button{
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    margin-left: 10px;
+}
